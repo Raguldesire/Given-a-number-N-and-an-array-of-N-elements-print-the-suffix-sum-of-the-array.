@@ -1,0 +1,8 @@
+n=int(input())                              #getting int as input
+k=list(map(int,input().split()))            #getting values for n
+l=[]                                        #creates an empty list to append x
+for i in range(0,n):
+  x=sum(k)
+  l.append(x)
+  k.pop(0)
+print(*l)
